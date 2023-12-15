@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.title {
+  padding: 15px;
+  border: none;
+  outline: none;
+  background-color: #e4e4df;
+  font-size: 1rem;
+}
+
+.add-to-do {
+  padding: 15px 30px;
+  border: none;
+  background-color: #ffa500;
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.add-to-do:hover {
+  background-color: #ff4500;
+}
+
+.todo {
+  padding: 5px 10px;
+  background-color: #e4e4df;
+  margin: 10px 0;
+}
+
+.to-do-list {
+  margin-top: 20px;
+}
+
+.delete-button,
+.completed {
+  border: none;
+  background-color: #ffa500;
+  padding: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.completed-to-do-list {
+  text-decoration: line-through;
+}
